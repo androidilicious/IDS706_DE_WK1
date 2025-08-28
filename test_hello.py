@@ -1,4 +1,5 @@
 from hello import say_hello, add
+
 # import subprocess
 # import sys
 # import os
@@ -21,5 +22,3 @@ def test_add():
     # Edge cases
     assert add(1_000_000, 2_000_000) == 3_000_000
     assert add(-100, 100) == 0
-
-
